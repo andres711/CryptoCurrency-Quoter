@@ -70,7 +70,7 @@ function Form({setState}) {
 
   return (
     <div>
-      <Header>Quote criptocurrency inmediately</Header>
+      <Header>Quote cryptocurrency inmediately</Header>
       <form>
         {error ? <Error message={"Select both fields"}/> : null}
         <CountrySelect />
